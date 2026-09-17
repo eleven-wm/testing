@@ -12,3 +12,8 @@ def test_add_zero():
     assert add(5, 0) == 5
     assert add(0, 5) == 5
     assert add(-3, 0) == -3
+def test_add_negative():
+    """测试：负数加法"""
+    assert add(-1, -1) == -2
+    assert add(-5, 3) == -2
+    assert add(3, -5) == -2
